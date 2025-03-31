@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator-screen{
+    border: 2px solid black;
+    width: 90%;
+    height: 100px;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: inline-grid;
+    grid-template-columns: 100px 100px 100px;
+}
+button{
+    height: 100px;
+    width: 100px;
+}
